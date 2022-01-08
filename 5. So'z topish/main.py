@@ -1,44 +1,40 @@
 import random
-from os import system
+import os
 
-sozlar = ["Ot", "mushuk", "qo'y", "echki", "fil"]
-tasodifiy_soz = (random.choice(sozlar)).lower()
-yashirin_soz = ""
-rasmlar = ['', '██', '████', '██████', '████████', '██████████']
-foy_harflar = []
-jon = 5
-# print(tasodifiy_soz)
+sozlar = ['mashina', 'nok', 'olma', 'banan']
+soz = random.choice(sozlar)
+soz = soz.lower()
+print(soz)
+urinish = 5
+kiritilgan_harflar = []
 habar = ""
-
-sarlavha = "=== So'z o'yiniga hush kelibsiz ===\nHayvon nomini toping"
-while True:
-    # ekranni yangilab turish
-    _ = system("cls")
+while True: # 4 , "f"
+    os.system('cls')
     yashirin_soz = ""
-    # yashirin so'zdan topilgan harfni ko'rsatish
-    for harf in tasodifiy_soz:
-        if harf not in foy_harflar:
-            yashirin_soz += "_"
+    for h in soz:
+        if h in kiritilgan_harflar:
+            yashirin_soz += h
         else:
-            yashirin_soz += harf.upper()
-    # jonni belgilar bilan ko'rsatish va habarlarni chiqarish
-    print(f"{sarlavha}\nJoningiz: {rasmlar[jon]}\n{habar}\n{yashirin_soz}")
-    # Agar yashirin_soz da _ belgisi bo'lmasa hammasi topilgan bo'ladi
-    if "_" not in yashirin_soz:
+            yashirin_soz += "█"
+
+    print(yashirin_soz)
+    print(f"Urinishlar: {urinish}")
+    print(habar)
+
+    if urinish == 0:
+        print("Siz yutqazdingiz")
+        break
+    elif "█" not in yashirin_soz:
         print("Siz g'olib bo'ldingiz")
         break
-    # Agar jon 0 bo'lsa, yutqazgan bo'ladi
-    if jon == 0:
-        print("Joningiz qolmadi. Yutqazdingiz")
-        break
-    foy_harf = input(f"\nHarf kiriting: ").lower()
-    # harfni bor yo'qligiga tekshirish
-    if foy_harf in foy_harflar:
-        habar = "Bu harfni yozib bo'ldingiz"
-    elif foy_harf in tasodifiy_soz:
-        foy_harflar.append(foy_harf)
-        habar = "To'g'ri"
+    harf = input("Harf kiriting: ").lower()
+
+    if harf in kiritilgan_harflar:
+        habar = f"Siz {harf} hafrini kiritib bo'lgansiz"
+    elif harf in soz:
+        habar = f"{harf} harfi so'zda bor"
+        kiritilgan_harflar.append(harf)
     else:
-        habar = "Xato"
-        jon -= 1
-input("\nChiqish uchun Enter ni bosing")
+        habar = f"{harf} harfi so'zda yo'q"
+        urinish -= 1
+input("Chiqish ucun Enter ni bosing")
