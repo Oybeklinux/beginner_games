@@ -41,17 +41,21 @@ Login kiriting:
 Natijalar mavjud emas
 ```
 5. register() funksiyasini yozamiz:
+- Agar ro'yxatdan o'tmagan bo'lsa
 ```text
 Login kiriting: oybek
 Hush kelibsiz oybek
 ```
-- Foydalanuvchi kiritgan loginni users nomli faylga yozib qo'ying
-- Agar fayl bo'lmasa, yangi yaratib login qo'shish kerak
-- Agar fayl bo'lsa, u holda avval usha foydalanuvchi borligini tekshirsin, agar bor bo'lsa tegishli habar chiqarsin va qayta login kiritishni so'rasin, toki faylda mavjud bo'lmagan loginni kiritguncha so'rayversin:
+- Aks holda quyidagi habar chiqsin
 ```text
 Login kiriting: oybek
 Bu login bazada bor. Boshqa login yozing: 
-Login kiriting:
+Login kiriting: otabek
+Hush kelibsiz otabek
 ```
 6. login() funksiyasi.
-- Agar fayl mavjud bo'lmasa quyidagicha habar chiqsin
+- Agar ro'yxatdan o'tgan bo'lsa
+```text
+Kirish uchun loginni kiriting: ulugbek
+ulugbek logini bazada mavjud emas. Avval ro'yxatdan o'ting
+```
