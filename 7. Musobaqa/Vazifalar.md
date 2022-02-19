@@ -18,20 +18,25 @@ ________ Learn English words ________
 - 3 ni tanlasa login()
 - 4 ni tanlasa chiqib ketsin
 
-4. Natijalarni ko'rsatish (show_reaults) funksiyasini bajaring. Bazani *users* deb nomlang:
-Agar baza mavjud bo'lsa va login bazada bo'lmasa, ma'lumot quyidagi jadval ko'rishinishida chiqsin
+4. Natijalarni ko'rsatish (show_results) funksiyasini yozing. Bazani *users* deb nomlang:
+- Baza ko'rinishi quyidagicha bo'ladi:
+```text
+oybek,20
+otabek,10
+```
+- Agar baza mavjud bo'lsa va login bazada bo'lmasa, ma'lumot quyidagi jadval ko'rishinishida chiqsin
 ```text
 O'yin natijalari:
 1        Otabek                 40         
 2        Oybek                  10
 ```
-Agar login bazada mavjud bo'lsa, qayta login kiritishni so'rasin:
+- Agar login bazada mavjud bo'lsa, qayta login kiritishni so'rasin:
 ```text
 Login kiriting: oybek
 Bu login bazada bor. Boshqa login yozing: 
 Login kiriting:
 ```
-Aga baza mavjud bo'lmasa quyidagi habar chiqsin
+- Agar baza mavjud bo'lmasa quyidagi habar chiqsin
 ```text
 Natijalar mavjud emas
 ```
