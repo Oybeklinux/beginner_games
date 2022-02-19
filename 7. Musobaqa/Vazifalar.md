@@ -18,19 +18,35 @@ ________ Learn English words ________
 - 3 ni tanlasa login()
 - 4 ni tanlasa chiqib ketsin
 
-4. Natijalarni ko'rsatish (show_reaults) funksiyasini bajaring:
-- Fayl yarating. Faylda login va balni yozing orasini biror belgi bilan ajrating
-- open() bilan faylni ochib, tsiklda qatorma-qator o'qib, bal bo'yicha tartiblangan holda quyidagi ko'rinishda natijalarni ekranga chiqaring:
-  - Buning uchun users nomli bo'sh lug'at yarating. Tsiklda har bir qatorni lug'atda qo'shing: dict{"login": bal}
-  - So'ng sorted(users.items()) funksiyasi yordamida uni teskari tartiblan
-  - Tartib raqamni generatsiya qiling
-  - So'ng ekranga quyidagi formatda chiqaring
+4. Natijalarni ko'rsatish (show_reaults) funksiyasini bajaring. Bazani *users* deb nomlang:
+Agar baza mavjud bo'lsa va login bazada bo'lmasa, ma'lumot quyidagi jadval ko'rishinishida chiqsin
 ```text
 O'yin natijalari:
 1        Otabek                 40         
 2        Oybek                  10
 ```
-- Agar fayl bo'lmasa, quyidagicha habar chiqsin:
+Agar login bazada mavjud bo'lsa, qayta login kiritishni so'rasin:
+```text
+Login kiriting: oybek
+Bu login bazada bor. Boshqa login yozing: 
+Login kiriting:
+```
+Aga baza mavjud bo'lmasa quyidagi habar chiqsin
 ```text
 Natijalar mavjud emas
 ```
+5. register() funksiyasini yozamiz:
+```text
+Login kiriting: oybek
+Hush kelibsiz oybek
+```
+- Foydalanuvchi kiritgan loginni users nomli faylga yozib qo'ying
+- Agar fayl bo'lmasa, yangi yaratib login qo'shish kerak
+- Agar fayl bo'lsa, u holda avval usha foydalanuvchi borligini tekshirsin, agar bor bo'lsa tegishli habar chiqarsin va qayta login kiritishni so'rasin, toki faylda mavjud bo'lmagan loginni kiritguncha so'rayversin:
+```text
+Login kiriting: oybek
+Bu login bazada bor. Boshqa login yozing: 
+Login kiriting:
+```
+6. login() funksiyasi.
+- Agar fayl mavjud bo'lmasa quyidagicha habar chiqsin
