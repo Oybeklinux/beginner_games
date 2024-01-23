@@ -1,0 +1,1 @@
+[Qadamlari bu yerda yozilgan](https://telegra.ph/Soz-topish-oyini-qadamlari-01-23)

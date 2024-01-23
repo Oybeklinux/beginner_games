@@ -14,3 +14,5 @@ for i in range(1_000_000):
         ohiri = son - 1
     elif javob == "c":
         boshi = son + 1
+
+input("\nChiqish uchun Enterni bosing")

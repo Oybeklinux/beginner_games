@@ -1,0 +1,7 @@
+[
+    {
+        "login": "oybek",
+        "password": "123",
+        "point": 30
+    }
+]

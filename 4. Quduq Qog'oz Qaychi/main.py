@@ -1,15 +1,3 @@
-# Quduq, Qog'oz, Qaychi
-# Qadam 1. Kompyuter Quduq, Qog'oz, Qaychi lardan birini tasodifiy ravishda tanlaydi
-# Qadam 2. Foydalanuvchi Quduq, Qog'oz, Qaychi lardan birini kiritadi
-# Qadam 3. Uch holatga tekshirish:
-        # 1. Kompyuter yutishi,
-        # 2. Foydalanuvchi yutadi
-        # 3. Durrang
-# Qadam 4. 10 marta takrorlansin
-# Qadam 5. Hisob chiqarilsin:
-            # (Kompyuter) x:y (Foydalanuvchi)
-            # Durranglar soni: z
-
 import random
 
 print("!!! Quduq Qaychi Qog'oz o'yiniga hush kelibsiz !!!\n")
@@ -34,3 +22,5 @@ for i in range(10):
         foy += 1
     print(f"(Kompyuter) {variant.get(k)}:{variant.get(f)} (Foydalanuvchi)")
 print(f"Hisob: (Kompyuter) {kom}:{foy} (Foydalanuvchi)\nDurranglar soni: {dur}")
+
+input("\nChiqish uchun Enterni bosing")

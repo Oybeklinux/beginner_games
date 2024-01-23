@@ -12,3 +12,4 @@ for i in range(1_000_000):
         print(f"Xato. Siz kiritgan son katta")
     else:
         print(f"Xato. Siz kiritgan son kichik")
+input("\nChiqish uchun Enterni bosing")
