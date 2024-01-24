@@ -1,6 +1,6 @@
 from random import choice
 
-users = {"otabek": {"password": 123, "point": 0}, "anvar": {"password": 123, "point": 10}}
+users = {"otabek": {"password": '123', "point": 0}, "anvar": {"password": '123', "point": 10}}
 words = {
     "mosina": "car",
     "avtobus": "bus",

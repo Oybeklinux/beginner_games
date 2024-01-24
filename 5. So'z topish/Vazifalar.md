@@ -43,7 +43,7 @@
     Urinishlar: 4
     Harf kiriting:
 
-7. Endi harf bor/yo'qligidan tashqari yana bitta shart qo'shamiz.
+8. Endi harf bor/yo'qligidan tashqari yana bitta shart qo'shamiz.
 
 Unda agar foydalanuvchi kiritgan harfni avval kiritgan bo'lsa,
 ekranga "Siz bu hafrni kiritib bo'lgansiz" degan habar chiqarsin,
@@ -59,7 +59,7 @@ aks holdagina bor/yo'qligini chiqarsin
     Urinishlar: 4
     Harf kiriting: m
     Siz m hafrini kiritib bo'lgansiz
-8. Yashirin so'zni ko'rsatish
+9. Yashirin so'zni ko'rsatish
 
     
     ███████
@@ -74,10 +74,10 @@ aks holdagina bor/yo'qligini chiqarsin
     Urinishlar: 4
     Harf kiriting: u
 
-9. Ekranni yangilaydigan qilish
-10. Ko'rinmay qolgan habarlarni ko'rinadigan qilish
-11. Agar hammasini topsa, siz yutdingiz degan habar chiqsin
-12. exe yasaymiz
+10. Ekranni yangilaydigan qilish
+11. Ko'rinmay qolgan habarlarni ko'rinadigan qilish
+12. Agar hammasini topsa, siz yutdingiz degan habar chiqsin
+13. exe yasaymiz
 
 
     pip install pyinstaller
