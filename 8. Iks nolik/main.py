@@ -9,7 +9,7 @@ def bosh_doska_hosil_qil():
     :return
         list - Hosil bo'lgan ro'yxatni qaytaradi
     """
-    return [[i + 3 * j for i in range(1, 4)] for j in range(3)]
+    pass
 
 
 def doskani_korsat():
@@ -18,13 +18,7 @@ def doskani_korsat():
     :return
         None - hech narsa qaytarmaydi
     """
-    print("+-------+-------+-------+")
-    for i in range(len(doska)):
-        print(f"|       |       |       |")
-        print(f"|   {doska[i][0]}   |   {doska[i][1]}   |   {doska[i][2]}   |""")
-        print(f"|       |       |       |""")
-        print(f"+-------+-------+-------+""")
-    print()
+    pass
 
 
 def foydalanuvchi_tanlasin():
@@ -33,17 +27,7 @@ def foydalanuvchi_tanlasin():
     :return
         None - hech narsa qaytarmaydi
     """
-    global doska
-    while True:
-        raqam = int(input("Sizni galingiz: "))
-        for i in range(3):
-            for j in range(3):
-                if doska[i][j] == raqam:
-                    doska[i][j] = "O"
-                    doskani_korsat()
-                    return
-        else:
-            print("Bu katakda raqam mavjud")
+    pass
 
 
 def bosh_maydonlar():
