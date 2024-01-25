@@ -15,5 +15,6 @@ O'yinlar ro'yxati:
 3. [Sonni topish (Kompyuter tarafidan)](3.%20Sonni%20top%20(Kompyuter%20topsin)/Vazifalar.md)
 4. [Quduq Qog'iz Qaychi o'yini](4.%20Quduq%20Qog'oz%20Qaychi/Vazifalar.md)
 5. [So'z topish o'yini](5.%20So'z%20topish/Vazifalar.md)
-5. [Matematika o'yini](6.%20Matekmatika/Vazifalar.md)
-6. [So'z yodlash o'yini](7.%20Musobaqa/list%20bilan/Vazifalar.md)
+6. [Matematika o'yini](6.%20Matekmatika/Vazifalar.md)
+7. [So'z yodlash o'yini](7.%20Musobaqa/list%20bilan/Vazifalar.md)
+8. [X va O o'yini](8.%20X%20va%20O%20o'yini%20(Tic%20Tac%20Toe,%20Крестики%20Нолики)/Vazifa.md)
