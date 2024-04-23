@@ -9,6 +9,7 @@ venv
 # Distribution / packaging
 .Python
 build/
+yechimlar/
 develop-eggs/
 dist/
 downloads/
